@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Statue of Zeus at Olympia",
+  "description": "Inside the Temple of Zeus at Olympia around 430 BCE: Phidias's colossal seated Zeus of gold and ivory. Olympibubu the athlete tells its story.",
+  "spawns": {
+    "default": "Outside the temple's east front, facing its steps",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_statue_of_zeus",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
