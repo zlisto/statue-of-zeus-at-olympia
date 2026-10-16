@@ -4,7 +4,10 @@
   "description": "Inside the Temple of Zeus at Olympia around 430 BCE: Phidias's colossal seated Zeus of gold and ivory. Olympibubu the athlete tells its story.",
   "spawns": {
     "default": "Outside the temple's east front, facing its steps",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "from_temple_of_artemis": "Arriving from Temple of Artemis, in front of the portal plaza",
+    "to_mausoleum": "In front of the portal to Mausoleum",
+    "from_colossus_of_rhodes": "Arriving from Colossus, in front of the portal plaza"
   },
   "portals": [
     {
@@ -13,6 +16,13 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_statue_of_zeus",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_mausoleum",
+      "label": "Mausoleum",
+      "href": "https://zlisto.github.io/mausoleum-at-halicarnassus/",
+      "spawn": "from_statue_of_zeus",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
     }
   ]
 }
