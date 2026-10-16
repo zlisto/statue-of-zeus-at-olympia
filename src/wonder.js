@@ -96,7 +96,7 @@ Its image of a calm, bearded god on a throne shaped how Zeus, and other enthrone
   },
 
   env: { sky: '#a8c8e6', fog: '#cfd9cf', fogNear: 110, fogFar: 420, ground: '#9fae6a', hemiSky: '#fff4e2', hemiGround: '#6f7d4a', sun: [40, 70, 50], sunIntensity: 1.7 },
-  speed: { walk: 5, run: 9 },
+  speed: { walk: 12, run: 20 },
   bound: 110,
   spawn: { x: 0, z: 46, yaw: 0 },
   portal: { x: -9, z: 52, rot: Math.PI, href: HUB, spawn: 'by_statue_of_zeus' },
